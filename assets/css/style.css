@@ -1,7 +1,7 @@
 :root {
-  --brand: #0f66ae;   /* 아주대 로고 남색 — 헤더·푸터 배경 */
-  --navy: #163a5f;
-  --navy-dark: #0f2a46;
+  --brand: #00246a;   /* SCL 로고 남색 — 헤더·푸터 배경 */
+  --navy: #00246a;
+  --navy-dark: #001845;
   --accent: #2d6cb5;
   --text: #26303a;
   --muted: #64707c;
@@ -68,8 +68,8 @@ main img { max-width: 100%; }
 .news-date { flex: 0 0 5.5rem; color: var(--muted); font-size: 0.88rem; white-space: nowrap; padding-top: 0.12rem; }
 
 /* research */
-.research-area { display: flex; gap: 1.6rem; align-items: flex-start; margin: 2.2rem 0; }
-.research-area img { flex: 0 0 110px; width: 110px; height: 110px; object-fit: contain; margin-top: 0.2rem; }
+.research-area { display: flex; gap: 2rem; align-items: center; margin: 2.6rem 0; }
+.research-area img { flex: 0 0 150px; width: 150px; height: 150px; object-fit: contain; }
 .research-area h3 { margin-top: 0; }
 .project-list li.done { color: var(--muted); }
 
@@ -109,6 +109,21 @@ main img { max-width: 100%; }
 .site-footer p { margin-bottom: 0.3rem; }
 
 @media (max-width: 640px) {
-  .site-header ul a { padding: 0.3rem 0.45rem; font-size: 0.85rem; }
+  /* 내비게이션: 줄바꿈 대신 한 줄 가로 스크롤 */
+  .site-header nav { flex-direction: column; align-items: flex-start; gap: 0.3rem; }
+  .site-header ul {
+    flex-wrap: nowrap; overflow-x: auto; max-width: 100%;
+    -webkit-overflow-scrolling: touch; scrollbar-width: none;
+  }
+  .site-header ul::-webkit-scrollbar { display: none; }
+  .site-header ul a { padding: 0.3rem 0.55rem; font-size: 0.88rem; white-space: nowrap; }
   .news-list li { flex-direction: column; gap: 0.1rem; }
+  /* 연구분야: 아이콘을 위로, 세로 배치 */
+  .research-area { flex-direction: column; align-items: flex-start; gap: 0.8rem; }
+  .research-area img { flex: none; width: 110px; height: 110px; }
+  .profile { gap: 1.2rem; }
+  .profile img.portrait { flex-basis: 160px; width: 160px; }
+  .footer-logo { height: 56px; max-width: 90%; object-fit: contain; }
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.25rem; }
 }
