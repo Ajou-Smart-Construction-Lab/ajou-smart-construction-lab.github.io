@@ -5,25 +5,50 @@ permalink: /research/
 
 # Research
 
+<div class="research-area" markdown="1">
+<img src="{{ '/assets/img/icon-vision.svg' | relative_url }}" alt="">
+<div markdown="1">
 ### AI-Driven Visual Monitoring of Construction Operations
 
 Construction sites generate rich visual data, but turning that data into management decisions still relies on manual observation. This research develops computer vision frameworks that automatically monitor construction productivity and progress from site cameras, with a particular focus on overcoming the scarcity of training data through VR-generated and generative-AI synthetic datasets. Recent work includes site-specific synthetic data-driven action segmentation for modular installation, dual-stream transformer-based activity classification, and massive-scale dataset synthesis using diffusion models.
+</div>
+</div>
 
+<div class="research-area" markdown="1">
+<img src="{{ '/assets/img/icon-robot.svg' | relative_url }}" alt="">
+<div markdown="1">
 ### Construction Robotics and Automation
 
 To address chronic labor shortages and productivity stagnation in construction, this research explores robotic platforms that can perform and assist on-site work. Topics include multipurpose construction robots for multifamily residential construction, object recognition and work-path planning for robotic task execution, and the effect of human-robot interaction on team productivity in construction settings.
+</div>
+</div>
 
+<div class="research-area" markdown="1">
+<img src="{{ '/assets/img/icon-modular.svg' | relative_url }}" alt="">
+<div markdown="1">
 ### Off-Site and Modular Construction
 
 Off-site construction promises faster, safer, and higher-quality building production, yet its competitiveness depends on rigorous quality and productivity management across the factory and the field. This research develops quality management systems for modular and precast concrete construction, analyzes defect cases to build quality management frameworks, and investigates technology adoption mechanisms and non-cost competitiveness of modular construction.
+</div>
+</div>
 
+<div class="research-area" markdown="1">
+<img src="{{ '/assets/img/icon-wearable.svg' | relative_url }}" alt="">
+<div markdown="1">
 ### Wearable Sensing for Construction Safety and Health
 
 Physiological data acquired from wearable devices open a new window into construction workers' physical and mental status. This research uses wearable biosensors, neckband 360° cameras, and contactless sensing (e.g., remote photoplethysmography) to assess workers' stress, physical demands, perceived risk, and proximity hazards, and incorporates the results into safety and health management decisions.
+</div>
+</div>
 
+<div class="research-area" markdown="1">
+<img src="{{ '/assets/img/icon-human.svg' | relative_url }}" alt="">
+<div markdown="1">
 ### Human Factors and Smart Built Environments
 
 Humans remain central to construction projects and to the buildings they produce. This research investigates the socio-psychological mechanisms of construction workers' safety behavior, and extends human-centered sensing to building occupants — developing personalized smart building systems that learn each occupant's thermal comfort from physiological data to control building operations.
+</div>
+</div>
 
 ## Research Projects
 
