@@ -30,10 +30,8 @@ body {
   display: flex; align-items: center; justify-content: space-between;
   flex-wrap: wrap; gap: 0.25rem 1rem; padding-top: 0.7rem; padding-bottom: 0.7rem;
 }
-.brand {
-  color: #fff; text-decoration: none; font-weight: 700; font-size: 1.05rem;
-  letter-spacing: 0.02em;
-}
+.brand { display: block; }
+.brand img { height: 42px; display: block; }
 .site-header ul { display: flex; flex-wrap: wrap; gap: 0.1rem; list-style: none; }
 .site-header ul a {
   color: rgba(255,255,255,0.85); text-decoration: none; font-size: 0.92rem;
@@ -117,6 +115,7 @@ main img { max-width: 100%; }
   }
   .site-header ul::-webkit-scrollbar { display: none; }
   .site-header ul a { padding: 0.3rem 0.55rem; font-size: 0.88rem; white-space: nowrap; }
+  .brand img { height: 34px; }
   .news-list li { flex-direction: column; gap: 0.1rem; }
   /* 연구분야: 아이콘을 위로, 세로 배치 */
   .research-area { flex-direction: column; align-items: flex-start; gap: 0.8rem; }
