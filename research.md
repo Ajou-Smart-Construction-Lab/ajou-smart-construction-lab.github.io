@@ -54,6 +54,7 @@ Humans remain central to construction projects and to the buildings they produce
 
 <ul class="project-list">
 <li>Planning Research for the Technology Development Project of a Smart Management System for Construction Site Noise (공사장 소음 스마트관리 시스템 기술개발사업 기획), 한국환경산업기술원, 2026</li>
+<li>Revision of Construction Standards in the Building Construction Section (건축공사 시공기준 정비 연구), 한국건설기술연구원, 2026</li>
 <li>Advanced Quality Management System for Precast Concrete Modular Construction (PC 모듈러주택 품질관리 고도화 연구용역), 한국토지주택공사, 2025.12 ~ 2027.03</li>
 <li>Development of a Multipurpose Robotic Platform for Productivity Innovation in Construction Sites (건설현장 생산성 혁신을 위한 다용도 로봇 플랫폼 개발), 아주대학교, 2025.12 ~ 2026.11</li>
 <li>Next Generation Modular Construction Core Technologies for Housing Supply Innovation (주택공급체계 혁신을 위한 차세대 모듈러 건축 핵심기술 개발 기획), 국토교통부, 2025.11 ~ 2027.04</li>
@@ -62,7 +63,6 @@ Humans remain central to construction projects and to the buildings they produce
 <li>Development of Core Technologies for Enhancing Fire Resistance and Residential Quality to Promote the Modular Construction Industry (모듈러 건축산업 활성화를 위한 내화성능 및 주거품질 향상 핵심기술 개발), 국토교통부, 2025.04 ~ 2029.12</li>
 <li>Development of a Deliverable Management and Verification Framework to Support BIM-Based Facility Maintenance (유지관리 BIM 활용 지원을 위한 성과품 납품 체계 및 검수 기술 개발), 국토안전관리원, 2025.05 ~ 2027.12</li>
 <li>Immersive Virtual-Reality-Based Construction Safety Training Focusing on Safety-Related Social Aspects, Research Grants Council of Hong Kong, 2023 ~ 2026</li>
-<li class="done">Revision of Construction Standards in the Building Construction Section (건축공사 시공기준 정비 연구), 한국건설기술연구원, 2025</li>
 <li class="done">Development of standard plans for multi-family residential buildings utilizing modular construction methods (모듈러 공동주택 설계 표준화 용역), 한국토지주택공사, 2024.12 ~ 2025.10</li>
 <li class="done">Hazard Proximity Monitoring System for Construction Sites Using Wearable 360-Degree Camera (웨어러블 360도 카메라 기반 건설현장 위험 근접 모니터링 시스템), 아주대학교, 2024 ~ 2025</li>
 <li class="done">Development of off-site construction technologies for precast concrete apartment housing production system (Off-Site Construction 기반 공동주택 생산시스템 혁신 기술개발), 국토교통부, 2020.06 ~ 2025.12</li>
