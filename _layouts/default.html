@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{{ site.description }}">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+<header class="site-header">
+  <nav class="wrap">
+    <a class="brand" href="{{ '/' | relative_url }}">Smart Construction Lab</a>
+    <ul>
+      <li><a href="{{ '/' | relative_url }}"{% if page.url == "/" %} class="active"{% endif %}>Home</a></li>
+      <li><a href="{{ '/research/' | relative_url }}"{% if page.url == "/research/" %} class="active"{% endif %}>Research</a></li>
+      <li><a href="{{ '/professor/' | relative_url }}"{% if page.url == "/professor/" %} class="active"{% endif %}>Professor</a></li>
+      <li><a href="{{ '/members/' | relative_url }}"{% if page.url == "/members/" %} class="active"{% endif %}>Members</a></li>
+      <li><a href="{{ '/publications/' | relative_url }}"{% if page.url == "/publications/" %} class="active"{% endif %}>Publications</a></li>
+      <li><a href="{{ '/teaching/' | relative_url }}"{% if page.url == "/teaching/" %} class="active"{% endif %}>Teaching</a></li>
+      <li><a href="{{ '/news/' | relative_url }}"{% if page.url == "/news/" %} class="active"{% endif %}>News</a></li>
+    </ul>
+  </nav>
+</header>
+<main{% unless page.url == "/" %} class="wrap page"{% endunless %}>
+{{ content }}
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <img src="{{ '/assets/img/logo-footer.png' | relative_url }}" alt="Smart Construction Lab" class="footer-logo">
+    <p>711 Sanhakwon, 206, World cup-ro, Yeongtong-gu,<br>Suwon-si, Gyeonggi-do, 16499, Republic of Korea</p>
+    <p>+82-31-219-2494 · <a href="mailto:bchoi@ajou.ac.kr">bchoi@ajou.ac.kr</a> · <a href="https://www.ajou.ac.kr/main/index.jsp">Ajou University</a> · <a href="https://www.google.com/maps/place/Ajou+University+Industrial-Academic+Cooperation+Center/@37.2863964,127.0436623,17z/">Map</a></p>
+    <p class="copyright">© 2026 Smart Construction Lab | All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>

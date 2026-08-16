@@ -1,0 +1,31 @@
+---
+title: Home
+permalink: /
+---
+<section class="hero">
+  <img src="{{ '/assets/img/hero.jpg' | relative_url }}" alt="Construction site">
+  <div class="hero-text">
+    <h1>Smart Construction Lab</h1>
+    <p>Department of Architecture · Ajou University</p>
+  </div>
+</section>
+
+<section class="home-section">
+  <div class="wrap">
+    <h2>About SCL</h2>
+    <p>The Smart Construction Lab (SCL) at Ajou University focuses on developing advanced digital and automation technologies to improve productivity, safety, and quality in construction projects. Our research integrates artificial intelligence, computer vision, robotics, and BIM-based methodologies to enable data-driven and intelligent construction processes. With a particular emphasis on off-site and modular construction environments, the laboratory explores advanced data-driven methods and automation strategies to support efficient and intelligent construction operations. Through practice-oriented and validation-driven research, the laboratory aims to deliver smart construction technologies that are directly applicable to real-world construction sites.</p>
+    <p>If you have an interest in working with SCL, please contact the Director, Prof. Byungjoo Choi (<a href="mailto:bchoi@ajou.ac.kr">bchoi@ajou.ac.kr</a>).</p>
+  </div>
+</section>
+
+<section class="home-section alt">
+  <div class="wrap">
+    <h2>Recent News</h2>
+    <ul class="news-list">
+      {% for item in site.data.news limit: 6 %}
+      <li><span class="news-date">{{ item.date }}</span><span>{{ item.text }}</span></li>
+      {% endfor %}
+    </ul>
+    <p><a href="{{ '/news/' | relative_url }}">All news →</a></p>
+  </div>
+</section>
