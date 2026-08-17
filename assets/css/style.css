@@ -40,14 +40,36 @@ body {
 .site-header ul a:hover { background: var(--bg-alt); }
 .site-header ul a.active { background: var(--brand); color: #fff; font-weight: 600; }
 
-/* hero (home) — 이미지 전체가 보이도록 원본 비율 유지 */
-.hero { padding-top: 1.8rem; }
-.hero img { width: 100%; height: auto; display: block; border-radius: 8px; }
-
 /* content */
 main.page { padding-top: 2.5rem; padding-bottom: 3.5rem; }
-.home-section { padding: 2.5rem 0; }
+.home-section { padding: 3rem 0; }
 .home-section.alt { background: var(--bg-alt); }
+
+/* home: headline */
+.headline {
+  color: var(--navy); font-size: clamp(1.7rem, 4vw, 2.6rem); font-weight: 800;
+  line-height: 1.3; max-width: 46rem; text-wrap: balance;
+}
+.eyebrow {
+  font-size: 0.82rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--navy); padding-bottom: 0.6rem; margin-bottom: 1.6rem; border-bottom: 2px solid var(--line);
+}
+
+/* home: research areas grid */
+.research-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+.research-tile {
+  display: block; background: #fff; border: 1px solid var(--line); border-radius: 10px;
+  padding: 1.6rem; text-align: center; text-decoration: none; transition: border-color 0.15s;
+}
+.research-tile:hover { border-color: var(--accent); }
+.research-tile img { width: 100%; max-width: 190px; aspect-ratio: 1 / 1; object-fit: contain; margin: 0 auto 1rem; display: block; }
+.research-tile .caption { display: block; color: var(--navy-dark); font-weight: 600; font-size: 0.98rem; }
+.about-tile { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 1.8rem; }
+.about-tile .eyebrow { margin-bottom: 1rem; }
+
+@media (max-width: 640px) {
+  .research-grid { grid-template-columns: 1fr; }
+}
 
 h1 { color: var(--navy); font-size: 1.9rem; margin-bottom: 1.2rem; }
 h2 { color: var(--navy); font-size: 1.4rem; margin: 2.2rem 0 0.9rem; padding-bottom: 0.35rem; border-bottom: 2px solid var(--line); }
