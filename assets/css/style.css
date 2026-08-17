@@ -67,7 +67,7 @@ main img { max-width: 100%; }
 
 /* research */
 .research-area { display: flex; gap: 2.4rem; align-items: center; margin: 2.6rem 0; }
-.research-area img { flex: 0 0 420px; width: 420px; height: 420px; object-fit: contain; }
+.research-area img { flex: 0 0 420px; width: 420px; height: 420px; min-width: 420px; min-height: 420px; object-fit: contain; }
 .research-area h3 { margin-top: 0; }
 .project-list li.done { color: var(--muted); }
 
