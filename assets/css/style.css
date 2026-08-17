@@ -59,11 +59,11 @@ main.page { padding-top: 2.5rem; padding-bottom: 3.5rem; }
 .research-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
 .research-tile {
   display: block; background: #fff; border: 1px solid var(--line); border-radius: 10px;
-  padding: 1.6rem; text-align: center; text-decoration: none; transition: border-color 0.15s;
+  overflow: hidden; text-decoration: none; transition: border-color 0.15s;
 }
 .research-tile:hover { border-color: var(--accent); }
-.research-tile img { width: 100%; max-width: 190px; aspect-ratio: 1 / 1; object-fit: contain; margin: 0 auto 1rem; display: block; }
-.research-tile .caption { display: block; color: var(--navy-dark); font-weight: 600; font-size: 0.98rem; }
+.research-tile img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+.research-tile .caption { display: block; color: var(--navy-dark); font-weight: 600; font-size: 0.98rem; padding: 0.9rem 1rem; }
 .about-tile { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 1.8rem; }
 .about-tile .eyebrow { margin-bottom: 1rem; }
 
