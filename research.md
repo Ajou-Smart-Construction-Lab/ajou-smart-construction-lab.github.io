@@ -6,7 +6,7 @@ permalink: /research/
 # Research
 
 <div class="research-area" markdown="1">
-<img src="{{ '/assets/img/icon-vision.svg' | relative_url }}" alt="">
+<img src="{{ '/assets/img/icon-vision.png' | relative_url }}" alt="">
 <div markdown="1">
 ### AI-Driven Visual Monitoring of Construction Operations
 
@@ -15,7 +15,7 @@ Construction sites generate rich visual data, but turning that data into managem
 </div>
 
 <div class="research-area" markdown="1">
-<img src="{{ '/assets/img/icon-robot.svg' | relative_url }}" alt="">
+<img src="{{ '/assets/img/icon-robot.png' | relative_url }}" alt="">
 <div markdown="1">
 ### Construction Robotics and Automation
 
@@ -24,7 +24,7 @@ To address chronic labor shortages and productivity stagnation in construction, 
 </div>
 
 <div class="research-area" markdown="1">
-<img src="{{ '/assets/img/icon-modular.svg' | relative_url }}" alt="">
+<img src="{{ '/assets/img/icon-modular.png' | relative_url }}" alt="">
 <div markdown="1">
 ### Off-Site and Modular Construction
 
@@ -33,7 +33,7 @@ Off-site construction promises faster, safer, and higher-quality building produc
 </div>
 
 <div class="research-area" markdown="1">
-<img src="{{ '/assets/img/icon-wearable.svg' | relative_url }}" alt="">
+<img src="{{ '/assets/img/icon-wearable.png' | relative_url }}" alt="">
 <div markdown="1">
 ### Wearable Sensing for Construction Safety and Health
 
@@ -42,7 +42,7 @@ Physiological data acquired from wearable devices open a new window into constru
 </div>
 
 <div class="research-area" markdown="1">
-<img src="{{ '/assets/img/icon-human.svg' | relative_url }}" alt="">
+<img src="{{ '/assets/img/icon-human.png' | relative_url }}" alt="">
 <div markdown="1">
 ### Human Factors and Smart Built Environments
 
