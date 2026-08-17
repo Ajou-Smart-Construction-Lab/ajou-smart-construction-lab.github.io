@@ -5,7 +5,7 @@ permalink: /research/
 
 # Research
 
-<div class="research-area" markdown="1">
+<div class="research-area lg-icon" markdown="1">
 <img src="{{ '/assets/img/icon-vision.png' | relative_url }}" alt="">
 <div markdown="1">
 ### AI-Driven Visual Monitoring of Construction Operations
@@ -14,7 +14,7 @@ Construction sites generate rich visual data, but turning that data into managem
 </div>
 </div>
 
-<div class="research-area" markdown="1">
+<div class="research-area lg-icon" markdown="1">
 <img src="{{ '/assets/img/icon-robot.png' | relative_url }}" alt="">
 <div markdown="1">
 ### Construction Robotics and Automation
