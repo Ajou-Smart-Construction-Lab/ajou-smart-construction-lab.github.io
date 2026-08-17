@@ -32,10 +32,10 @@ body {
 }
 .brand { display: block; }
 .brand img { height: 68px; display: block; }
-.site-header ul { display: flex; flex-wrap: wrap; gap: 0.1rem; list-style: none; }
+.site-header ul { display: flex; flex-wrap: wrap; gap: 0.2rem; list-style: none; }
 .site-header ul a {
-  color: var(--navy-dark); text-decoration: none; font-size: 0.92rem;
-  padding: 0.4rem 0.75rem; border-radius: 4px;
+  color: var(--navy-dark); text-decoration: none; font-size: 1.08rem; font-weight: 500;
+  padding: 0.55rem 1rem; border-radius: 4px;
 }
 .site-header ul a:hover { background: var(--bg-alt); }
 .site-header ul a.active { background: var(--brand); color: #fff; font-weight: 600; }
@@ -117,7 +117,7 @@ main img { max-width: 100%; }
     -webkit-overflow-scrolling: touch; scrollbar-width: none;
   }
   .site-header ul::-webkit-scrollbar { display: none; }
-  .site-header ul a { padding: 0.35rem 0.6rem; font-size: 0.88rem; white-space: nowrap; }
+  .site-header ul a { padding: 0.4rem 0.7rem; font-size: 0.96rem; white-space: nowrap; }
   .brand img { height: 52px; }
   .news-list li { flex-direction: column; gap: 0.1rem; }
   /* 연구분야: 아이콘을 위로, 세로 배치 */
