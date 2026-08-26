@@ -53,6 +53,7 @@ Humans remain central to construction projects and to the buildings they produce
 ## Research Projects
 
 <ul class="project-list">
+<li>Project Aligned Sim-to-Real Synthesis and Video Relational Reasoning for Dynamic Understanding of Equipment Operations on Building Construction Sites (현장 정합 Sim-to-Real 합성·Video Relational Reasoning 기반 건축현장 장비 작업 동적 이해 기술 개발), 한국연구재단, 2026.09 ~ 2030.08</li>
 <li>Planning Research for the Technology Development Project of a Smart Management System for Construction Site Noise (공사장 소음 스마트관리 시스템 기술개발사업 기획), 한국환경산업기술원, 2026</li>
 <li>Revision of Construction Standards in the Building Construction Section (건축공사 시공기준 정비 연구), 한국건설기술연구원, 2026</li>
 <li>Advanced Quality Management System for Precast Concrete Modular Construction (PC 모듈러주택 품질관리 고도화 연구용역), 한국토지주택공사, 2025.12 ~ 2027.03</li>
