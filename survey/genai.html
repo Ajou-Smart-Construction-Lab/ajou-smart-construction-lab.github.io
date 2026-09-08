@@ -9,7 +9,7 @@ permalink: /survey/genai/
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <meta name="referrer" content="no-referrer">
-<meta property="og:title" content="설계사무소 종사자의 생성형 AI 활용 설문">
+<meta property="og:title" content="건축설계 실무 종사자의 생성형 AI 활용 설문">
 <meta property="og:description" content="아주대학교 Smart Construction Lab · 설계 실무 종사자 대상 · 약 12분">
 <title>생성형 AI 활용 설문 — Smart Construction Lab</title>
 <style>
@@ -19,13 +19,13 @@ permalink: /survey/genai/
 <body>
 <main>
 <p class="brand">SMART CONSTRUCTION LAB · 아주대학교</p>
-<h1>설계사무소 종사자의<br>생성형 AI 활용에 관한 설문조사</h1>
+<h1>건축설계 실무 종사자의<br>생성형 AI 활용에 관한 설문조사</h1>
 <p>설계 실무에서 생성형 AI를 어떻게 받아들이는지 알아보기 위한 연구입니다.</p>
 <section class="card">
-<ul><li>대상: 현재 건축설계 실무에 종사하는 분</li><li>건축사 자격이 없는 설계 스태프도 참여할 수 있습니다.</li><li>생성형 AI를 사용한 적이 없어도 참여할 수 있습니다.</li><li>예상 소요 시간: 약 12분</li></ul>
+<ul><li>대상: 현재 건축설계 실무에 종사하는 분</li><li>건축사사무소와 엔지니어링·건설사·공공기관·연구소의 설계 부서 종사자 모두 참여할 수 있습니다.</li><li>건축사 자격이 없는 설계 스태프도 참여할 수 있습니다.</li><li>생성형 AI를 사용한 적이 없어도 참여할 수 있습니다.</li><li>예상 소요 시간: 약 12분</li></ul>
 <p id="preparing">현재 설문 연결을 준비 중입니다.</p>
 <a id="participate" class="button" hidden>파일럿 설문 참여</a>
-<p class="small">참여 버튼을 누르면 Google에서 제공하는 설문 화면으로 이동합니다. 응답 내용은 연구실 홈페이지에 공개되지 않습니다.</p>
+<p class="small">참여 버튼을 누르면 Google에서 제공하는 설문 화면으로 이동합니다. 참여는 자율이며 불참·중단에 따른 불이익이 없습니다. 개인별 응답은 소속 조직·상사·모집 안내자에게 제공하지 않습니다.</p>
 </section>
 <p class="small">연구책임자: 최병주 교수 · <a href="mailto:bchoi@ajou.ac.kr">bchoi@ajou.ac.kr</a><br><a href="https://www.smartconstructionlab.com/">연구실 홈페이지</a></p>
 </main>
@@ -34,7 +34,7 @@ const endpoint = "https://script.google.com/macros/s/AKfycbzt2tVQf7tDpFrcF-RahId
 if (endpoint) {
   const destination = new URL(endpoint);
   const params = new URLSearchParams(location.search);
-  if (['association','office','other'].includes(params.get('channel'))) destination.searchParams.set('channel',params.get('channel'));
+  if ((["alumni","department","society","association","office","linkedin","paid_ad","panel","other"]).includes(params.get('channel'))) destination.searchParams.set('channel',params.get('channel'));
   if (/^O\d{3}$/.test(params.get('office') || '')) destination.searchParams.set('office',params.get('office'));
   const link = document.getElementById('participate');
   link.href = destination.href; link.hidden = false;
