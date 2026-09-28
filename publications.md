@@ -10,6 +10,9 @@ permalink: /publications/
 
 (\* graduate student advisees, \*\* undergraduate student advisees, \*\*\* post-doctoral fellow advised)
 
+- [J47] **Choi, B.** (2026) “Object, activity, and installation-cycle annotations for on-site modular construction video”, Scientific Data (in review)
+- [J46] Kwon, Y., and **Choi, B.** (2026) “The Psychological Mechanism of Field Engineers' Organizational Citizenship Behavior in Construction Projects: The Role of Project Identification”, Journal of Construction Engineering and Management (in review, Corresponding author)
+- [J45] Saqip, G., Jones, A. C., **Choi, B.**, and Lee, G. (2026) “Foundational Role of Neighborhood-Specific Mobility Self-Efficacy in Facilitating Older Adult Outdoor Mobility”, Journal of Transport & Health (in review)
 - [J44] Luo, Y., **Choi, B.**, Umair, M., and Seo, J. (2026) “Construction Workers’ Risk Perception: A Review of Influencing Factors, Measurement Approaches, and Intervention Strategies”, Journal of Management in Engineering (in review)
 - [J43] Sung, J., Lee, K., Kim, N., **Choi, B.**, and Jeon, J. (2026) “Contactless Detection and Classification of Construction Workers' Stress using remote Photoplethysmography (rPPG)”, Journal of Computing in Civil Engineering (in review)
 - [J42] \*Ban, J., Kim, H., Kim, D., Jeon, J., and **Choi, B.** (2026) “Site-Customized Synthetic Virtual Reality Data for Action Segmentation in Modular Installation Monitoring”, Engineering Applications of Artificial Intelligence (in review, Corresponding author)
