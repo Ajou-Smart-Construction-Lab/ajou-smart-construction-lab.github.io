@@ -38,6 +38,7 @@ permalink: /professor/
 - **2025 &nbsp; Outstanding Service Award**, Ajou University
 - **2024 &nbsp; Outstanding Research Faculty Award**, Ajou University
 - **2024 &nbsp; Outstanding Research Award**, Ajou University
+- **2024 &nbsp; Outstanding Paper Award**, Korea Institute of Construction Engineering and Management Annual Conference
 - **2023 &nbsp; Best Paper Award**, Korea Institute of Construction Engineering and Management Annual Conference
 - **2023 &nbsp; Outstanding Research Faculty Award**, Ajou University
 - **2023 &nbsp; Outstanding Reviewer**, Journal of Construction Engineering and Management, ASCE
