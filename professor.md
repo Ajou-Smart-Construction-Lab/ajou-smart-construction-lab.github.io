@@ -34,6 +34,7 @@ permalink: /professor/
 - **2026 &nbsp; Jang Won-Seok Special Award (Paper Category)**, Korea Institute of Construction Engineering and Management
 - **2026 &nbsp; Outstanding Research Award**, Ajou University
 - **2026 &nbsp; Outstanding Paper Award**, Korea Institute of Construction Engineering and Management Annual Conference
+- **2026 &nbsp; Outstanding Paper Award**, Architectural Institute of Korea Annual Conference
 - **2025 &nbsp; Outstanding Research Faculty Award**, Ajou University
 - **2025 &nbsp; Outstanding Research Award**, Ajou University
 - **2025 &nbsp; Outstanding Service Award**, Ajou University
