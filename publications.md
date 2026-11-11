@@ -10,6 +10,7 @@ permalink: /publications/
 
 (\* graduate student advisees, \*\* undergraduate student advisees, \*\*\* post-doctoral fellow advised)
 
+- [J48] Kwon, Y., Jeon, Y., Hwang, S., Kim, S., and **Choi, B.** (2026) “Acceptance of generative AI in architectural design practice: Facilitating beliefs, literacy, hallucination concern, and the moderating role of experience”, Automation in Construction (in review, Corresponding author)
 - [J47] **Choi, B.** (2026) “Object, activity, and installation-cycle annotations for on-site modular construction video”, Scientific Data (in review)
 - [J46] Kwon, Y., and **Choi, B.** (2026) “The Psychological Mechanism of Field Engineers' Organizational Citizenship Behavior in Construction Projects: The Role of Project Identification”, Journal of Construction Engineering and Management (in review, Corresponding author)
 - [J45] Luo, Y., **Choi, B.**, Umair, M., and Seo, J. (2026) “Construction Workers’ Risk Perception: A Review of Influencing Factors, Measurement Approaches, and Intervention Strategies”, Journal of Management in Engineering (in review)
